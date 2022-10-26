@@ -1,0 +1,1128 @@
+body
+{
+	background: #cecece;
+	font: 14px 'Helvetica' , Arial, sans-serif;
+	color: #3c4046;
+}
+.container
+{
+	width: 100%;
+}
+.wrapper
+{
+	width: 990px;
+	margin: 0 auto;
+	background: #ffffff;
+	-webkit-box-shadow: 0 0 5px 1px #555555;
+	-moz-box-shadow: 0 0 5px 1px #555555;
+	-ms-box-shadow: 0 0 5px 1px #555555;
+	-o-box-shadow: 0 0 5px 1px #555555;
+	box-shadow: 0 0 5px 1px #555555;
+}
+.header
+{
+	background: #ffffff;
+	width: 100%;
+	height: 80px;
+}
+.top_header
+{
+	width:100%;
+	height:26px;
+	background:#0E77C0;
+}
+.rt_options
+{
+	float:right;
+	width:180px;	
+}
+.text-size
+{
+	float:left;
+	padding:0 15px;		
+}
+.text-size a, .rt_language a 
+{
+	color:#fff;
+	font-size:12px;
+	line-height:26px;
+}
+.text-size a img, .rt_language a img 
+{
+	padding:0 5px;
+} 
+#logo
+{	
+	width: 370px;
+	height: 76px;
+	margin: 5px 0 0 15px;	
+	float: left;	
+}
+#rt_btm_header
+{
+	float: right;
+}
+#rt_btm_header li
+{	
+	float:left;
+	color: #fff;
+	margin-top:10px;
+}
+#rt_btm_header li + li
+{
+	border-left: 1px solid #ccc;
+}
+
+#rt_btm_header li a
+{
+	font-size: 12px;
+	color:#057EC2;
+	padding:0 10px;
+}
+#rt_btm_header li a:hover
+{
+	color:#000;	
+}
+.search 
+{
+	clear:both;
+	padding:10px;
+	float:right;
+}
+.search .txtBox 
+{
+	border:1px solid #999;
+	height:20px;
+	width:160px;
+	color:#666;
+	font-size:13px;
+	padding:3px;	
+}
+.search .btn
+{
+	background: url(https://goaelectricity.gov.in/images/search_icon.png) no-repeat;
+	float:right;
+	margin:5px;
+	width:16px;
+	height:16px;
+	cursor:pointer;
+}
+
+#consumer_login img
+{
+	width: 150px;
+	height: 33px;
+	float: right;
+	padding: 0px;
+}
+.menu_nav
+{
+	background: url(https://goaelectricity.gov.in/images/menur_bg.png) top center repeat-x;
+	width: 100%;
+	height: 40px;
+	margin: 5px 0 5px 0;
+	position: relative;
+	z-index: 999;
+}
+.menu_nav ul
+{
+	width: 100%;
+}
+.menu_nav ul li
+{
+	float: left;
+	position: relative;
+}
+.menu_nav ul li a
+{
+	color: #057ec2;
+	font-size: 14px;
+	padding: 11px 23px;
+	display: block;
+}
+.menu_nav ul li + li
+{
+	border-left: 1px solid #ccc;
+}
+.menu_nav ul li:hover
+{
+	background: url(https://goaelectricity.gov.in/images/menur_bg_hover.png) 0 0 repeat-x;
+}
+.menu_nav ul li a:hover
+{
+	color: #057ec2;
+}
+.menu_nav ul li ul.sub_menu
+{
+	background: #004b87;
+	min-width: 200px;
+	height: 0;
+	padding: 5px;
+	position: absolute;
+	top: 38px;
+	left: 0;
+	display: none;
+	border: #ffffff solid 1px;
+}
+.menu_nav ul li:hover ul.sub_menu
+{
+	display: block;
+	height: auto;
+}
+.menu_nav ul li ul.sub_menu li
+{
+	width: 200px;
+	position: relative;
+	border: none;
+}
+.menu_nav ul li ul.sub_menu li a
+{
+	font-size: 12px;
+	color: #ffffff;
+	padding: 5px;
+	text-align: left;
+	line-height: 22px;
+	display: block;
+}
+.menu_nav ul li ul.sub_menu li:hover
+{
+	background: #123d5f;
+	color: #ffffff !important;
+}
+
+.menu_nav ul li ul.sub_menu li .sub_menu_sub
+{
+	background: #004b87;
+	width: 200px;
+	height: auto;
+	display: none;
+	position: absolute;
+	top: -6px;
+	left: 200px;
+	border: #ffffff solid 1px;
+}
+.menu_nav ul li ul.sub_menu li:hover .sub_menu_sub
+{
+	width: 200px;
+	display: block;
+	padding: 0px;
+}
+
+/*Columns starts here*/
+.columns
+{
+	width: 100%;
+	margin: auto;
+}
+.lt_column
+{
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+.left_clm_in
+{
+	background: #f4f4f4;
+	width: 200px;
+	height: 100%;
+	float: left;	
+	border: #cccccc solid 1px;
+}
+.lt_heading
+{
+	background: url(https://goaelectricity.gov.in/images/lt_nav_bg.png) 0 0 repeat-x;
+	height: 34px;	
+}
+.lt_heading h2
+{
+	font-size: 16px;
+	line-height: 34px;
+	margin-left: 10px;
+}
+/**Left Menu starts here for Dash board**/
+.lt_nav
+{
+	width: 100%;
+	height: 100%;
+	float: left;
+	position: relative;
+	z-index: 998;
+}
+.lt_nav ul
+{
+	width: 100%;
+	margin: 0 auto;
+}
+.lt_nav ul li
+{
+	background: url(https://goaelectricity.gov.in/images/right_arow.png) center right 15px no-repeat;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+.lt_nav ul li a
+{
+	display: block;
+	padding: 10px 10px;
+	font-size: 13px;
+}
+.lt_nav ul li a:hover
+{
+	background: url(https://goaelectricity.gov.in/images/right_arow_hover.png) center right 15px no-repeat #ffffff;
+	color: #004984;
+}
+.lt_nav ul li ul.sub_menu
+{
+	background: #7a8c99;
+	width: 200px;
+	height: 0;
+	position: absolute;
+	top: 0;
+	left: 198px;
+	display: none;
+	border: 1px solid #fff;
+}
+.lt_nav ul li:hover ul.sub_menu
+{
+	display: block;
+	height: auto;
+}
+.lt_nav ul li ul.sub_menu li
+{
+	width: 200px;
+	position: relative;
+	background: none;
+}
+.lt_nav ul li ul.sub_menu li:last-child
+{
+	border: none;
+}
+.lt_nav ul li ul.sub_menu li a
+{
+	background: none;
+	font-size: 12px;
+	color: #ffffff;
+	padding: 5px;
+	text-align: left;
+	line-height: 22px;
+	display: block;
+}
+.lt_nav ul li ul.sub_menu li:hover
+{
+	background: #123d5f;
+	color: #ffffff !important;
+}
+.lt_nav ul li ul.sub_menu li .sub_menu_sub
+{
+	background: #7a8c99;
+	width: 200px;
+	height: auto;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 198px;	
+}
+.lt_nav ul li ul.sub_menu li:hover .sub_menu_sub
+{
+	width: 200px;
+	display: block;
+	padding: 0px;
+}
+.lt_nav ul li ul.sub_menu li ul.sub_menu_sub li .sub_menu_sub3
+{
+	background: #7a8c99;
+	width: 200px;
+	height: auto;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	border: 1px solid #fff;
+}
+.lt_nav ul li ul.sub_menu li ul.sub_menu_sub li:hover .sub_menu_sub3
+{
+	width: 200px;
+	display: block;
+	padding: 0px;
+}
+.left_clm_in p
+{
+	color: #555555;
+	padding: 15px;
+	line-height: 20px;
+	font-size: 13px;
+}
+/**Middle Column**/
+.middle_column
+{
+	width: 587px;
+	float: left;
+}
+.middle_column_in
+{
+	width: 580px;
+	float: left;	
+	padding:0 5px;
+}
+
+/**Right Column**/
+.rt_column
+{
+	width: 200px;
+	float: right;
+}
+.rt_clm_in
+{
+	width: 200px;
+	float: left;
+	margin-top: 5px;
+}
+.content_rt
+{
+	width: 100%;
+    height: 395px;
+}
+.content_rt h2
+{
+	background: #f4f4f4;
+	border: #ccc solid 1px;
+	font-size: 18px;
+	color: #057ec2;
+	font-weight: 600;
+	display: block;
+	padding: 10px 15px;
+	margin-right: 0px;
+}
+
+
+.content_area
+{
+	background: none;
+	border: #ccc solid 1px;
+	padding: 10px 15px;
+	margin: 10px 0 0 0px;
+}
+.rt_block_box 
+{
+	min-height:30px;
+	background: #f8f8f8;
+	border: #ccc solid 1px;
+	padding: 10px 10px;
+	margin-bottom:15px;		
+}
+.rt_block_box ul li 
+{
+	display:block;
+	line-height:2;
+	background:	url(https://goaelectricity.gov.in/images/arrow_1.png) no-repeat left;
+	padding:0 15px
+}
+.rt_block_box2 ul 
+{
+	display:block;
+	line-height:2;
+    list-style-image:url(https://goaelectricity.gov.in/images/arrow_1.png);
+	padding:0 15px;
+    margin-left:10px;    
+}
+.rt_block_box ul li a
+{
+	font-size:13px;	
+}
+.view_highlet li
+{	
+	list-style:none;
+	background:	url(https://goaelectricity.gov.in/images/arrow_1.png) no-repeat;
+	padding:0 20px;
+	line-height:2;
+}
+.view_highlet a
+{
+	font-size: 13px;
+	color: #057ec2;
+	font-weight:400;
+	line-height: 2;	
+	text-decoration:underline;			
+}
+.slider
+{
+	width: 99%;
+    height: 1048px;
+}
+.ebill
+{
+	font-size: 23px;
+	color: #458909;
+}
+.tabs ul li
+{
+	background: url(https://goaelectricity.gov.in/images/tabs.png) repeat-x;
+	width: 578px;
+	height: 50px;
+	float: left;
+	border: #cccccc solid 1px;
+	margin: 5px 7px 0 0;
+	display: block;	
+}
+.tabs ul li:last-child
+{
+	margin-right: 0px;
+}
+.tabs ul li a
+{
+	display: block;
+	font-size: 18px;
+	text-align: left;
+	padding-left: 5px;
+	text-align: left;
+	line-height: 50px;
+}
+.tabs ul li img
+{
+	float: left;
+	padding-left:165px;
+}
+.tabs span
+{
+	color: #458909;
+}
+.welocm_block
+{
+	background: #f8f6f6;
+	width: 578px;
+	height: auto;
+	border: #cccccc solid 1px;
+	margin: 5px 0 0 0;
+}
+.welocm_block h2
+{
+	font-size: 16px;
+	float: left;
+	padding: 10px;
+	border-bottom: #057ec2 solid 1px;
+}
+.welocm_block span
+{
+	color: #077fc2;
+}
+.welocm_block p
+{
+	text-align: justify;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 10px;
+}
+.news_block ul li
+{
+	background: #f8f6f6;
+	width: 215px;
+	height: 311px;
+	border: #cccccc solid 1px;
+	margin: 5px 11px 10px 0px;
+	float: left;
+}
+.news_block h2
+{
+	font-size: 16px;
+	float: left;
+	padding: 10px;
+	border-bottom: #057ec2 solid 1px;
+	display: block;
+}
+.news_block p
+{
+	font-size: 12px;
+	line-height: 14px;
+	padding: 5px;
+	float: left;
+}
+.news_block img
+{
+	text-align: center;
+	padding: 5px;
+}
+.pay_block ul li
+{
+	background: #f8f6f6;
+	width: 287px;
+	height: 55px;
+	border: #cccccc solid 1px;
+	/*margin: 5px 11px 10px 0px;*/
+    margin: 0px 0 0 0px;
+	float: left;
+}
+.pay_block h2
+{
+	font-size: 16px;
+	float: left;
+	padding: 10px;
+	border-bottom: #057ec2 solid 1px;
+	display: block;
+}
+.pay_block p
+{
+	font-size: 12px;
+	line-height: 14px;
+	padding: 5px;
+	float: left;
+}
+.pay_block img
+{
+	text-align: center;
+	padding: 5px;
+}
+
+.c_care
+{
+	float: right;
+}
+.footer_quote 
+{
+	background:#333;
+	height:30px;
+	color:#fff;
+	text-align:center;
+	line-height:30px;
+	font-weight:600;
+}
+.footer_quote 
+{
+	color:#fff;
+	font-size:12px;
+}
+footer_quote_btm2 
+{
+	width:100%;
+	font-size: 12px;
+	color: #cccccc;
+	text-align: center;
+	line-height: 45px;	
+}
+.footer
+{
+	background: #325571;
+	width: 100%;
+	height: auto;
+}
+.footer p
+{
+	font-size: 12px;
+	color: #cccccc;
+	text-align: center;
+	line-height: 45px;
+}
+.footer_nhcl img 
+{
+	vertical-align:middle;
+	/*padding:8px;*/
+	border: 1px solid #ccc;
+	margin-left:10px;	
+}
+.footer_links 
+{
+	width:900px;
+	margin:5px auto;
+	text-align:center;
+	padding-top:15px;	
+}
+.footer_links li a 
+{
+	border-right: 1px solid #ccc;
+	
+}
+.footer_links ul li a{
+	text-align: center;
+	font-size:12px;
+	color:#999;
+	padding:0 10px;
+	line-height:22px;		
+}
+.footer_bd_none{	
+	border-style: none;
+}
+.footer_links ul li a:hover{
+	color:#fff;
+	
+}
+.footer_end 
+{
+	font-size:12px;
+	color:#666;
+	text-align:center;
+	padding:15px 25px;
+	line-height:20px;
+}
+
+
+/**Menu Accordian Starts here**/
+#ged_accordian, #ged_accordian ul, #ged_accordian ul li, #ged_accordian ul li a
+{
+	list-style: none;
+	line-height: 1;
+	display: block;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#ged_accordian
+{
+	width: 225px;
+	color: #ffffff;
+}
+#ged_accordian ul ul
+{
+	display: none;
+}
+.align-right
+{
+	float: right;
+}
+#ged_accordian > ul > li > a
+{
+	padding: 15px; /*border-left: 1px solid #cccccc; 	border-right: 1px solid #cccccc; 	border-top: 1px solid #cccccc;*/
+	cursor: pointer;
+	z-index: 2;
+	font-size: 12px;
+	text-decoration: none;
+	color: #1e749a;
+	background: #f4f4f4;
+}
+#ged_accordian > ul > li > a:hover, #ged_accordian > ul > li.active > a, #ged_accordian > ul > li.open > a
+{
+	color: #1e749a;
+	background: #f4f4f4;
+}
+#ged_accordian > ul > li.open > a
+{
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.15);
+	border-bottom: 1px solid #597388;
+}
+#ged_accordian > ul > li:last-child > a, #ged_accordian > ul > li.last > a
+{
+	border-bottom: 1px solid #597388;
+}
+.holder
+{
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.holder::after, .holder::before
+{
+	display: block;
+	position: absolute;
+	content: "";
+	width: 6px;
+	height: 6px;
+	right: 20px;
+	z-index: 10;
+	-webkit-transform: rotate(-135deg);
+	-moz-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+}
+.holder::after
+{
+	top: 17px;
+	border-top: 1px solid #065fa3;
+	border-left: 1px solid #065fa3;
+}
+#ged_accordian > ul > li > a:hover > span::after, #ged_accordian > ul > li.active > a > span::after, #ged_accordian > ul > li.open > a > span::after
+{
+	border-color: #065fa3;
+}
+.holder::before
+{
+	top: 18px;
+	border-top: 1px solid;
+	border-left: 1px solid;
+	border-top-color: inherit;
+	border-left-color: inherit;
+}
+#ged_accordian ul ul li a
+{
+	cursor: pointer;
+	border-bottom: 1px solid #597388;
+	border-left: 1px solid #597388;
+	border-right: 1px solid #597388;
+	padding: 10px 15px;
+	z-index: 1;
+	text-decoration: none;
+	font-size: 13px;
+	color: #eeeeee;
+	line-height: 20px;
+	background: #688399;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+#ged_accordian ul ul li:hover > a, #ged_accordian ul ul li.open > a, #ged_accordian ul ul li.active > a
+{
+	background: #688399;
+	color: #ffffff;
+}
+#ged_accordian ul ul li:first-child > a
+{
+	box-shadow: none;
+}
+#ged_accordian ul ul ul li:first-child > a
+{
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+#ged_accordian ul ul ul li a
+{
+	padding-left: 30px;
+}
+#ged_accordian > ul > li > ul > li:last-child > a, #ged_accordian > ul > li > ul > li.last > a
+{
+	border-bottom: 0;
+}
+#ged_accordian > ul > li > ul > li.open:last-child > a, #ged_accordian > ul > li > ul > li.last.open > a
+{
+	border-bottom: 1px solid #597388;
+}
+#ged_accordian > ul > li > ul > li.open:last-child > ul > li:last-child > a
+{
+	border-bottom: 0;
+}
+#ged_accordian ul ul li.has-sub > a::after
+{
+	display: block;
+	position: absolute;
+	content: "";
+	width: 5px;
+	height: 5px;
+	right: 20px;
+	z-index: 10;
+	top: 11.5px;
+	border-top: 2px solid #eeeeee;
+	border-left: 2px solid #eeeeee;
+	-webkit-transform: rotate(-135deg);
+	-moz-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+}
+#ged_accordian ul ul li.active > a::after, #ged_accordian ul ul li.open > a::after, #ged_accordian ul ul li > a:hover::after
+{
+	border-color: #ffffff;
+}
+.ged_accordian_scroll {
+	overflow:scroll;
+	height:200px;
+	width:auto;	
+}
+
+/** END Menu Accordian**/
+
+/**Full width page starts here**/
+.full_width
+{
+	width: 100%;
+	margin: auto;
+}
+.full_width_in
+{
+	width: 100%;
+	margin: auto;
+}
+.full_width h2
+{
+	background: #f4f4f4;
+	width: 930px;
+	border: #ccc solid 1px;
+	font-size: 18px;
+	color: #057ec2;
+	font-weight: 600;
+	display: block;
+	padding: 10px 15px;
+	margin: 15px;
+}
+.content_full_width
+{
+	width: 928px;
+	margin: 0 auto;
+	padding: 15px;
+	border: #ccc solid 1px;	
+}
+.content_full_width h4 
+{
+	font: 24px 'Helvetica' , Arial, sans-serif;
+	font-weight:bold;
+	color:#3b5ca0;	
+	padding:5px 0;
+}
+#ins
+{
+	font: 16px 'Helvetica' , Arial, sans-serif;
+	font-weight:400;
+	width:800px;
+	color:#f00;	
+	padding:5px 0;
+	line-height:18px;
+	margin-bottom:10px;	
+}
+#highlet_tab h3
+{
+	font: 16px 'Helvetica' , Arial, sans-serif;	
+	color:#fff;
+	background:#0E77C0;	
+	padding:5px 0;
+	text-align:center;
+	font-weight:600;		
+}
+#entry_tab 
+{
+	width:980px;		
+}
+
+.small_input  
+{
+	background: #fff;
+	border: 1px solid #afafaf;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	box-shadow: inset 0px 0px 4px #cfcfcf;
+	-webkit-box-shadow: inset 0px 0px 4px #cfcfcf;
+	-moz-box-shadow: inset 0px 0px 4px #cfcfcf;
+	color: #333;
+	padding: 4px 3px;
+	width: 80px;
+	outline: none;
+	margin-left:10px
+}
+.large_input  
+{
+	background: url(https://goaelectricity.gov.in/images/select-bg.jpg)repeat-x;
+	border: 1px solid #afafaf;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 4px;
+	width: 135px;	
+}
+.large_input:hover  
+{
+	background: url(https://goaelectricity.gov.in/images/select-bg-hover.jpg)repeat-x;
+}
+.footer-txt p
+{
+	line-height:15px;
+	padding-bottom:15px;
+}
+ /**For Payment gateway page**/ 
+ .body-lg
+{
+	background: #253e52;
+	font: 14px 'Helvetica' , Arial, sans-serif;
+	color: #3c4046;
+}
+ .header-lg
+{
+	background: #c8d0d6;
+	width: 100%;
+	height: 55px;
+	padding:5px 0;
+}
+#logo-lg {
+    width: 237px;
+    height: 50px;
+    margin: 5px 0 0 15px;
+    float: left;
+}
+  
+  .Left_lg 
+ {
+ 	width:750px;
+ 	float:left;
+ }
+ .lt-work 
+ {
+ 	padding:10px;
+
+ }
+ .contract 
+ {
+ 	width:600px;
+ 	margin:auto;
+ 	margin-top:35px;    	
+ }
+ .lt_heading-lg
+{
+	background: #2970a9;
+	height: 36px;	
+	color:#fff;
+	margin-top:10px;	
+}
+ .lt_heading-lg h2
+{
+	font-size: 16px;
+	line-height: 34px;
+	margin-left: 10px;
+}
+.right_lg 
+ {
+ 	width:230px;
+ 	float:left;
+ 	margin-right:10px;
+ }
+ .rt_block_box {
+    min-height: 30px;
+    background: #f8f8f8;
+    border: #2970a9 solid 1px;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+}
+.rt_block_box-lg p 
+{
+	font-size:12px;
+	line-height:1.6;
+	padding:3px;	
+}
+.rt-caution 
+{
+	background:#FF504D;
+	padding:3px;
+	width:200px;
+	height:min-height:220px;
+	margin:auto;
+	border-radius:5px;
+	color:#fff;
+}
+ .footer-lg
+{
+	background: #838f98;
+	width: 100%;
+	height: 60px;
+}
+.lt_heading_pay-lg
+{
+	background: #68D2F2;
+	height: 30px;	
+	color:#fff;
+	margin-top:10px;	
+}
+ .lt_heading_pay-lg h2
+{
+	font-size: 14px;
+	line-height: 34px;
+	margin-left: 10px;
+}
+
+.rt_block_box_pay 
+{
+	min-height:30px;
+	background: #FFFFFF;
+	border: #ccc solid 1px;
+	padding: 10px 10px;
+	margin-bottom:15px;		
+}
+.rt_block_box_pay ul li 
+{
+	display:block;
+	line-height:2;
+	background:	url(https://goaelectricity.gov.in/images/arrow_1.png) no-repeat left;
+	padding:0 15px
+}
+.rt_block_box_pay-lg p 
+{
+	line-height:1.6;
+	padding:3px;	
+}
+
+  .f_lenth 
+{
+	width:780px;	
+}  
+.f_content
+{
+	width:760px;
+	min-height:750px;
+	margin-left:210px;	
+	padding:5px;
+	border:1px solid #0E77C0;
+}
+.m_content
+{
+	width:760px;
+	min-height:750px;
+	margin-left:0px;	
+	padding:0px;
+	border:1px solid #0E77C0;
+}
+
+ .f_ad_lenth 
+{
+	width:780px;	
+}  
+.f_ad_content
+{
+	width:760px;
+	min-height:250px;
+	margin-left:210px;	
+    margin-bottom:8px;
+	padding:5px;
+	border:1px solid #0E77C0;
+}
+
+.power_out
+{
+	width:100%;
+    background: #f4f4f4;
+	border: #ccc solid 1px;
+     margin-bottom: 5px;   
+}
+.power_out h2
+{	
+    width:650px;
+	font-size: 18px;
+	color: #057ec2;
+	font-weight: 400;
+	display: block;
+	padding: 2px 10px;
+	margin-right: 0px;
+    line-height:1.9   
+}
+.power_out p {
+    float:right;
+    
+}
+.Btn_pw
+{
+	background: #3b5ca0;
+	border-color: #2d477b #2d477b #263c68;
+	position: relative;
+	display: inline-block;
+	padding: 8px 18px;
+	font-size: 13px;
+	color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+    top:6px;
+    border-radius:3px;	
+}
+.Btn_pw:hover
+{
+	background: #70B541;
+	background: -webkit-gradient(linear, left top, left bottom, from(#70B541), to(#ABDE89));
+	background: -moz-linear-gradient(top, #70B541, #70B541);
+}
+
+ .f_pow_lenth
+{
+	width:780px;	
+}  
+.f_pow_content
+{
+	width:760px;
+	min-height:850px;
+	margin-left:210px;	
+	padding:5px;
+	/*border:1px solid #0E77C0;*/
+}
+
+ /**END Payment gateway page**/
+  
+/**END full width page**/

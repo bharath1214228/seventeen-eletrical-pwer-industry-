@@ -1,0 +1,378 @@
+
+input.textbox
+{
+	background: #fff;
+	border: 1px solid #afafaf;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	box-shadow: inset 0px 0px 4px #cfcfcf;
+	-webkit-box-shadow: inset 0px 0px 4px #cfcfcf;
+	-moz-box-shadow: inset 0px 0px 4px #cfcfcf;
+	color: #333;
+	padding: 4px 3px;
+	width: 165px;
+	outline: none;
+}
+input.textbox:focus
+{
+	border-color: rgba(82, 168, 236, 0.8);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+input.textbox_pay
+{
+	background: #fff;
+	border: 1px solid #afafaf;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	box-shadow: inset 0px 0px 4px #cfcfcf;
+	-webkit-box-shadow: inset 0px 0px 4px #cfcfcf;
+	-moz-box-shadow: inset 0px 0px 4px #cfcfcf;
+	color: #333;
+	padding: 4px 3px;
+	width: 330px;
+	outline: none;
+}
+input.textbox_pay:focus
+{
+	border-color: rgba(82, 168, 236, 0.8);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+. textboxmulti
+{
+	background: #fff;
+	border: 2px Double #afafaf;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	box-shadow: inset 0px 0px 4px #cfcfcf;
+	-webkit-box-shadow: inset 0px 0px 4px #cfcfcf;
+	-moz-box-shadow: inset 0px 0px 4px #cfcfcf;
+	color: #333;
+	padding: 4px 3px;
+	width: 165px;
+	outline: none;
+}
+.mytxarea{
+	background: #fff;
+	border: 1px solid #afafaf;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	box-shadow: inset 0px 0px 4px #cfcfcf;
+	-webkit-box-shadow: inset 0px 0px 4px #cfcfcf;
+	-moz-box-shadow: inset 0px 0px 4px #cfcfcf;
+	color: #333;
+	vertical-align:top;
+}
+.textboxmulti:focus
+{
+	border-color: rgba(82, 168, 236, 0.8);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+
+.smtextbox
+{
+	width: 90px;
+	border: solid 1px #000;
+	padding: 0px 0px;
+	border: 1.5px solid #82797D;
+	padding: 5px;
+	background: #ffffff;
+	-moz-border-radius: 5px;
+	border-radius: 4.5px;
+	-webkit-border-radius: 5px;
+	vertical-align: middle;
+}
+.smtextbox:focus
+{
+	border: 1px solid #50cff1;
+	box-shadow: 2px 1px 1px 2px #ffffff;
+}
+.smt1extbox
+{
+	width: 120px;
+	border: solid 1px #000;
+	padding: 0px 0px;
+	border: 1.5px solid #82797D;
+	padding: 5px;
+	background: #ffffff;
+	-moz-border-radius: 5px;
+	border-radius: 4.5px;
+	-webkit-border-radius: 5px;
+	vertical-align: middle;
+}
+.smt1extbox:focus
+{
+	border: 1px solid #50cff1;
+	box-shadow: 2px 1px 1px 2px #ffffff;
+}
+
+.Btnstyle
+{
+	background: #3b5ca0;
+	border-color: #2d477b #2d477b #263c68;
+	position: relative;
+	display: inline-block;
+	height: 30px;
+	padding: 0 16px;
+	font-size: 13px;
+	color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+	top: 0px;
+	left: 0px;
+}
+.Btnstyle:hover
+{
+	background: #70B541;
+	background: -webkit-gradient(linear, left top, left bottom, from(#70B541), to(#ABDE89));
+	background: -moz-linear-gradient(top, #70B541, #70B541);
+}
+
+.Dropdownstyle
+{
+	background: url(https://goaelectricity.gov.in/images/select-bg.jpg)repeat-x;
+	border: 1px solid #afafaf;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 4px;
+	width: 165px;
+}
+.Dropdownstyle:hover
+{
+	background: url(https://goaelectricity.gov.in/images/select-bg-hover.jpg)repeat-x;
+}
+
+.Headerstyle
+{
+	font-family: Helvetica Neue;
+	font-size: 20Px;
+	font-weight: bold;
+	color: #000080;
+}
+
+.Chkboxstyle
+{
+	font-family: Helvetica Neue;
+	font-size: 14Px;
+}
+.Radiobuttonliststyle
+{
+	font-family: Helvetica Neue;
+	font-size: 14Px;
+	color: #660033;
+}
+.ParagrapghStyle
+{
+	font-family: Helvetica Neue;
+	font-size: 14px;
+	color: #660033;
+}
+.WaterMarkStyle
+{
+	font-family: Helvetica Neue;
+	font-size: 14px;
+	color: #CCCC00;
+}
+.Labelstyle
+{
+	color: #333333;
+	font-weight: bold;
+	font-family: Calibri (Body);
+	font-size: 12px;
+}
+.LabelErrorStyle
+{
+	font-family: Helvetica Neue;
+	font-size: 14px;
+	color: Red;
+}
+
+#master_content .accordionHeader a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+}
+
+#master_content .accordionHeader a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+
+.accordionHeaderSelected
+{
+	border: 1px solid #cccccc;
+	background-color: #474747;
+	font-family: Helvetica Neue;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+#master_content .accordionHeaderSelected a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+}
+
+#master_content .accordionHeaderSelected a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+
+.accordionContent
+{
+	background-color: #FFF6F2;
+	border: 1px solid #2F4F4F;
+	border-top: none;
+	padding: 5px;
+	padding-top: 10px;
+}
+.mGrid
+{
+	width: 100%;
+	background-color: #fff;
+	margin: 5px 0 10px 0;
+	border: solid 1.8px #aaaaaa;
+	border-collapse: collapse;
+}
+.mGrid td
+{
+	padding: 0px;
+	border: solid 1px #f1f1f1;
+	font-family: Helvetica Neue;
+	font-size: small;
+	font-weight: normal;
+	color: #878787;
+}
+.mGrid th
+{
+	padding: 0px 0px;
+	background: url(https://goaelectricity.gov.in/CSS/grd_alt.png) repeat-x top;
+	border-left: solid 1px #aaaaaa;
+	border-right: solid 1px #aaaaaa;
+	border-top: solid 1px #aaaaaa;
+	border-bottom: solid 1px #aaaaaa;
+	font-size: 0.9em;
+}
+.mGrid tr:hover
+{
+	background-color: #d3e4ed;
+}
+
+.mGrid .alt
+{
+	background: #fcfcfc url(https://goaelectricity.gov.in/CSS/grd_alt.png) repeat-x top;
+}
+.mGrid .pgr
+{
+	background: #424242 url(https://goaelectricity.gov.in/CSS/grd_alt.png) repeat-x top;
+}
+.mGrid .pgr table
+{
+	margin: 5px 0;
+}
+.mGrid .pgr td
+{
+	border-width: 0;
+	padding: 0 6px;
+	border-left: solid 1px #666;
+	font-weight: normal;
+	color: #fff;
+	line-height: 9px;
+}
+.mGrid .pgr a
+{
+	color: #666;
+	text-decoration: none;
+}
+.mGrid .pgr a:hover
+{
+	color: #000;
+	text-decoration: none;
+}
+
+/**Table styles**/
+.mytable
+{
+	width: 100%;
+	font-size: 12px;
+}
+/* Zebra striping */
+.mytable tr:nth-of-type(odd)
+{
+	background: #eee;
+}
+.mytable th
+{
+	background: #008080;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 7px 6px;
+	border: 1px solid #ccc;
+}
+.mytable td, th
+{
+	padding: 5px;
+	border: 1px solid #ccc;
+	text-align: left;
+}
+.accordionHeader
+{
+	color: white;
+	background-color: #0869ba;
+	font-size: 14px;
+	cursor: pointer;
+	padding: 6px;
+	margin-top: 3px;
+}
+.accordionContent
+{
+	background-color: White;
+	border: 1px gray;
+	padding: 4px;
+	padding-top: 7px;
+}
+.Btnstyle_pay
+{
+	background: #3b5ca0;
+	border-color: #2d477b #2d477b #263c68;
+	position: relative;
+	display: inline-block;
+	height: 26px;
+	padding: 0 16px;
+	font-size: 13px;
+	color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+}
+.Btnstyle_pay:hover
+{
+	background: #70B541;
+	background: -webkit-gradient(linear, left top, left bottom, from(#70B541), to(#ABDE89));
+	background: -moz-linear-gradient(top, #70B541, #70B541);
+}
+.pay_table
+{	
+	border-width:2px;	
+	border-style:double;
+	border-color:#457A95;
+}
